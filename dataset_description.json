@@ -1,0 +1,21 @@
+{
+	"Acknowledgements":"We gratefully acknowledge the help of Jonna Jürs and Yiru Chen with the data acquisition and pre-processing.",
+	"Authors":[
+		"Gramann, K.",
+		"Hohlefeld, F.U.",
+		"Gehrke, L.",
+		"Klug, M"
+	],
+	"BIDSVersion":"n/a",
+	"DatasetDOI":"n/a",
+	"DatasetType":"raw",
+	"Funding":[
+		"the German Research Foundation (DFG) Grant No. GR 2627/8-1, Open Access funding enabled and organized by Projekt DEAL."
+	],
+	"License":"CC BY-NC 4.0",
+	"Name":"EEG and motion capture data set for a full-body/joystick rotation task",
+	"ReferencesAndLinks":[
+		"Human cortical dynamics during full-body heading changes",
+		"https://doi.org/10.1038/s41598-021-97749-8"
+	]
+}
