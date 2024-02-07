@@ -18,5 +18,7 @@
         "Human cortical dynamics during full-body heading changes",
         "https://doi.org/10.1038/s41598-021-97749-8"
     ],
-    "EthicsApprovals": []
+    "EthicsApprovals": [
+        "The experimental procedures were approved by the local ethics committee (Technische Universität Berlin, Germany) and the research was performed in accordance with the ethics guidelines. The study was conducted in accordance to the Declaration of Helsinki and all participants signed a written informed consent."
+    ]
 }
