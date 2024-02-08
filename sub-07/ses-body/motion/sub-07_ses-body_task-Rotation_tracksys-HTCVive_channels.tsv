@@ -1,10 +1,10 @@
-name	type	units	sampling_frequency	tracking_system	tracked_point	component	placement	orientation_component
-headRigid_quat_w	ORNT	rad	87.533301420327	HTCVive	headRigid	quat_w	head	quat_w
-headRigid_quat_x	ORNT	rad	87.533301420327	HTCVive	headRigid	quat_x	head	quat_x
-headRigid_quat_y	ORNT	rad	87.533301420327	HTCVive	headRigid	quat_y	head	quat_y
-headRigid_quat_z	ORNT	rad	87.533301420327	HTCVive	headRigid	quat_z	head	quat_z
-headRigid_cart_x	POS	m	87.533301420327	HTCVive	headRigid	x	head	x
-headRigid_cart_y	POS	m	87.533301420327	HTCVive	headRigid	y	head	y
-headRigid_cart_z	POS	m	87.533301420327	HTCVive	headRigid	z	head	z
-Rigid_headRigid_PS_offset_yaw	MISC	n/a	87.533301420327	HTCVive	headRigid	n/a	head	n/a
-HTCVive_latency	LATENCY	seconds	87.533301420327	HTCVive	n/a	n/a	n/a	n/a
+name	component	type	tracked_point	units	placement	reference_frame	sampling_frequency
+headRigid_quat_w	quat_w	ORNT	headRigid	rad	head	global	87.533301420327
+headRigid_quat_x	quat_x	ORNT	headRigid	rad	head	global	87.533301420327
+headRigid_quat_y	quat_y	ORNT	headRigid	rad	head	global	87.533301420327
+headRigid_quat_z	quat_z	ORNT	headRigid	rad	head	global	87.533301420327
+headRigid_cart_x	x	POS	headRigid	m	head	global	87.533301420327
+headRigid_cart_y	y	POS	headRigid	m	head	global	87.533301420327
+headRigid_cart_z	z	POS	headRigid	m	head	global	87.533301420327
+Rigid_headRigid_PS_offset_yaw	n/a	MISC	headRigid	n/a	head	global	87.533301420327
+HTCVive_latency	n/a	LATENCY	n/a	seconds	n/a	n/a	87.533301420327

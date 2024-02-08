@@ -1,9 +1,9 @@
-name	type	units	sampling_frequency	tracking_system	tracked_point	component	placement	orientation_component
-headRigid_quat_w	ORNT	rad	59.9979827814675	VIRPos	headRigid	quat_w	headRigid	quat_w
-headRigid_quat_x	ORNT	rad	59.9979827814675	VIRPos	headRigid	quat_x	headRigid	quat_x
-headRigid_quat_y	ORNT	rad	59.9979827814675	VIRPos	headRigid	quat_y	headRigid	quat_y
-headRigid_quat_z	ORNT	rad	59.9979827814675	VIRPos	headRigid	quat_z	headRigid	quat_z
-headRigid_cart_x	POS	vm	59.9979827814675	VIRPos	headRigid	x	headRigid	x
-headRigid_cart_y	POS	vm	59.9979827814675	VIRPos	headRigid	y	headRigid	y
-headRigid_cart_z	POS	vm	59.9979827814675	VIRPos	headRigid	z	headRigid	z
-VIRPos_latency	LATENCY	seconds	59.9979827814675	VIRPos	n/a	n/a	n/a	n/a
+name	component	type	tracked_point	units	placement	reference_frame	sampling_frequency
+headRigid_quat_w	quat_w	ORNT	headRigid	rad	headRigid	global	59.9979827814675
+headRigid_quat_x	quat_x	ORNT	headRigid	rad	headRigid	global	59.9979827814675
+headRigid_quat_y	quat_y	ORNT	headRigid	rad	headRigid	global	59.9979827814675
+headRigid_quat_z	quat_z	ORNT	headRigid	rad	headRigid	global	59.9979827814675
+headRigid_cart_x	x	POS	headRigid	vm	headRigid	global	59.9979827814675
+headRigid_cart_y	y	POS	headRigid	vm	headRigid	global	59.9979827814675
+headRigid_cart_z	z	POS	headRigid	vm	headRigid	global	59.9979827814675
+VIRPos_latency	n/a	LATENCY	n/a	seconds	n/a	n/a	59.9979827814675

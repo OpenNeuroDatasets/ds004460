@@ -1,34 +1,34 @@
-name	type	units	sampling_frequency	tracking_system	tracked_point	component	placement	orientation_component
-Rigid1_quat_w	ORNT	rad	80.1534448587832	PhaseSpace	Rigid1	quat_w	Rigid1	quat_w
-Rigid1_quat_x	ORNT	rad	80.1534448587832	PhaseSpace	Rigid1	quat_x	Rigid1	quat_x
-Rigid1_quat_y	ORNT	rad	80.1534448587832	PhaseSpace	Rigid1	quat_y	Rigid1	quat_y
-Rigid1_quat_z	ORNT	rad	80.1534448587832	PhaseSpace	Rigid1	quat_z	Rigid1	quat_z
-Rigid1_cart_x	POS	m	80.1534448587832	PhaseSpace	Rigid1	x	Rigid1	x
-Rigid1_cart_y	POS	m	80.1534448587832	PhaseSpace	Rigid1	y	Rigid1	y
-Rigid1_cart_z	POS	m	80.1534448587832	PhaseSpace	Rigid1	z	Rigid1	z
-Rigid1_Conf	MISC	n/a	80.1534448587832	PhaseSpace	Rigid1	n/a	Rigid1	n/a
-Rigid2_quat_w	ORNT	rad	80.1534448587832	PhaseSpace	Rigid2	quat_w	Rigid2	quat_w
-Rigid2_quat_x	ORNT	rad	80.1534448587832	PhaseSpace	Rigid2	quat_x	Rigid2	quat_x
-Rigid2_quat_y	ORNT	rad	80.1534448587832	PhaseSpace	Rigid2	quat_y	Rigid2	quat_y
-Rigid2_quat_z	ORNT	rad	80.1534448587832	PhaseSpace	Rigid2	quat_z	Rigid2	quat_z
-Rigid2_cart_x	POS	m	80.1534448587832	PhaseSpace	Rigid2	x	Rigid2	x
-Rigid2_cart_y	POS	m	80.1534448587832	PhaseSpace	Rigid2	y	Rigid2	y
-Rigid2_cart_z	POS	m	80.1534448587832	PhaseSpace	Rigid2	z	Rigid2	z
-Rigid2_Conf	MISC	n/a	80.1534448587832	PhaseSpace	Rigid2	n/a	Rigid2	n/a
-Rigid3_quat_w	ORNT	rad	80.1534448587832	PhaseSpace	Rigid3	quat_w	Rigid3	quat_w
-Rigid3_quat_x	ORNT	rad	80.1534448587832	PhaseSpace	Rigid3	quat_x	Rigid3	quat_x
-Rigid3_quat_y	ORNT	rad	80.1534448587832	PhaseSpace	Rigid3	quat_y	Rigid3	quat_y
-Rigid3_quat_z	ORNT	rad	80.1534448587832	PhaseSpace	Rigid3	quat_z	Rigid3	quat_z
-Rigid3_cart_x	POS	m	80.1534448587832	PhaseSpace	Rigid3	x	Rigid3	x
-Rigid3_cart_y	POS	m	80.1534448587832	PhaseSpace	Rigid3	y	Rigid3	y
-Rigid3_cart_z	POS	m	80.1534448587832	PhaseSpace	Rigid3	z	Rigid3	z
-Rigid3_Conf	MISC	n/a	80.1534448587832	PhaseSpace	Rigid3	n/a	Rigid3	n/a
-Rigid4_quat_w	ORNT	rad	80.1534448587832	PhaseSpace	Rigid4	quat_w	Rigid4	quat_w
-Rigid4_quat_x	ORNT	rad	80.1534448587832	PhaseSpace	Rigid4	quat_x	Rigid4	quat_x
-Rigid4_quat_y	ORNT	rad	80.1534448587832	PhaseSpace	Rigid4	quat_y	Rigid4	quat_y
-Rigid4_quat_z	ORNT	rad	80.1534448587832	PhaseSpace	Rigid4	quat_z	Rigid4	quat_z
-Rigid4_cart_x	POS	m	80.1534448587832	PhaseSpace	Rigid4	x	Rigid4	x
-Rigid4_cart_y	POS	m	80.1534448587832	PhaseSpace	Rigid4	y	Rigid4	y
-Rigid4_cart_z	POS	m	80.1534448587832	PhaseSpace	Rigid4	z	Rigid4	z
-Rigid4_Conf	MISC	n/a	80.1534448587832	PhaseSpace	Rigid4	n/a	Rigid4	n/a
-PhaseSpace_latency	LATENCY	seconds	80.1534448587832	PhaseSpace	n/a	n/a	n/a	n/a
+name	component	type	tracked_point	units	placement	reference_frame	sampling_frequency
+Rigid1_quat_w	quat_w	ORNT	Rigid1	rad	Rigid1	global	80.1534448587832
+Rigid1_quat_x	quat_x	ORNT	Rigid1	rad	Rigid1	global	80.1534448587832
+Rigid1_quat_y	quat_y	ORNT	Rigid1	rad	Rigid1	global	80.1534448587832
+Rigid1_quat_z	quat_z	ORNT	Rigid1	rad	Rigid1	global	80.1534448587832
+Rigid1_cart_x	x	POS	Rigid1	m	Rigid1	global	80.1534448587832
+Rigid1_cart_y	y	POS	Rigid1	m	Rigid1	global	80.1534448587832
+Rigid1_cart_z	z	POS	Rigid1	m	Rigid1	global	80.1534448587832
+Rigid1_Conf	n/a	MISC	Rigid1	n/a	Rigid1	global	80.1534448587832
+Rigid2_quat_w	quat_w	ORNT	Rigid2	rad	Rigid2	global	80.1534448587832
+Rigid2_quat_x	quat_x	ORNT	Rigid2	rad	Rigid2	global	80.1534448587832
+Rigid2_quat_y	quat_y	ORNT	Rigid2	rad	Rigid2	global	80.1534448587832
+Rigid2_quat_z	quat_z	ORNT	Rigid2	rad	Rigid2	global	80.1534448587832
+Rigid2_cart_x	x	POS	Rigid2	m	Rigid2	global	80.1534448587832
+Rigid2_cart_y	y	POS	Rigid2	m	Rigid2	global	80.1534448587832
+Rigid2_cart_z	z	POS	Rigid2	m	Rigid2	global	80.1534448587832
+Rigid2_Conf	n/a	MISC	Rigid2	n/a	Rigid2	global	80.1534448587832
+Rigid3_quat_w	quat_w	ORNT	Rigid3	rad	Rigid3	global	80.1534448587832
+Rigid3_quat_x	quat_x	ORNT	Rigid3	rad	Rigid3	global	80.1534448587832
+Rigid3_quat_y	quat_y	ORNT	Rigid3	rad	Rigid3	global	80.1534448587832
+Rigid3_quat_z	quat_z	ORNT	Rigid3	rad	Rigid3	global	80.1534448587832
+Rigid3_cart_x	x	POS	Rigid3	m	Rigid3	global	80.1534448587832
+Rigid3_cart_y	y	POS	Rigid3	m	Rigid3	global	80.1534448587832
+Rigid3_cart_z	z	POS	Rigid3	m	Rigid3	global	80.1534448587832
+Rigid3_Conf	n/a	MISC	Rigid3	n/a	Rigid3	global	80.1534448587832
+Rigid4_quat_w	quat_w	ORNT	Rigid4	rad	Rigid4	global	80.1534448587832
+Rigid4_quat_x	quat_x	ORNT	Rigid4	rad	Rigid4	global	80.1534448587832
+Rigid4_quat_y	quat_y	ORNT	Rigid4	rad	Rigid4	global	80.1534448587832
+Rigid4_quat_z	quat_z	ORNT	Rigid4	rad	Rigid4	global	80.1534448587832
+Rigid4_cart_x	x	POS	Rigid4	m	Rigid4	global	80.1534448587832
+Rigid4_cart_y	y	POS	Rigid4	m	Rigid4	global	80.1534448587832
+Rigid4_cart_z	z	POS	Rigid4	m	Rigid4	global	80.1534448587832
+Rigid4_Conf	n/a	MISC	Rigid4	n/a	Rigid4	global	80.1534448587832
+PhaseSpace_latency	n/a	LATENCY	n/a	seconds	n/a	n/a	80.1534448587832
